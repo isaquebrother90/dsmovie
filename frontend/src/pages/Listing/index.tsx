@@ -1,3 +1,5 @@
+import Pagination from "components/Pagination";
+
 function Listing() {
     const movie = {
         id: 1,
@@ -8,7 +10,7 @@ function Listing() {
     };
     
     return (
-        <h1>Página de listagem</h1>
+        <Pagination />
     )
 }
 
